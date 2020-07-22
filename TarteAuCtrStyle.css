@@ -1,0 +1,226 @@
+body {
+	margin: 0;
+}
+
+/*headerBar-----*/
+.headerBar{
+	width: 100%;
+	height: 56px;
+	top: 0;
+	left: 0;
+	position: fixed;
+	align-items: center;	
+	background-color: rgb(255, 255, 255);
+	box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.42);
+	z-index: 50000;
+}
+
+.navBar{
+	height: 100%;
+	width: 100%;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0px 10px 0px 10px;
+	z-index: 2;
+}
+
+.menuBurger{
+	font-size: 24px;
+	color: red;
+}
+
+.logoMarmiton{
+	margin-left: 5px;
+	height: 50%;
+	align-items: center;
+	flex-shrink: 0;
+}
+
+.logoMarmiton span{
+	text-transform: uppercase;
+	position: static;
+	left: 20px;
+	font-size: 10px;
+	font-weight: bolder;
+	color: #393c6d;
+}
+
+.iconMarmiton{
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 25px;
+}
+
+.separator{
+	height: 100%;
+	width: 1px;
+	background-color: #eeeeee;
+}
+/*-----herderBar*/
+
+#globalContent{
+	margin-top: 80px;
+	width: 100%;
+	background-color: rgb(255, 255, 255);
+	position: relative;
+}
+
+/*containerAuthor-----*/
+.recipeContainer{
+	margin: 5px;
+}
+
+.contentAuthor{
+	align-items: center;
+	justify-content: space-between;		
+}
+
+.authorPicture{
+	display: inline-block;
+	max-width: 56px;
+	margin-right: 12px;
+	vertical-align: middle;
+}
+
+.contentAuthorLink{
+	align-items: center;
+}
+
+.authorName{
+	font-weight: bolder;
+	font-size: 11px;
+	color: #000000;
+}
+
+.moreRecipe{
+	align-items: center;
+	font-size: 10px;
+	color: cadetblue;
+}
+
+.iconArrow{
+	margin: 0px 0 0 10px;
+	vertical-align: middle;
+	font-size: 28px;
+	color: cadetblue;
+}
+
+/*-----containerAuthor*/
+
+/*recipeTop-----*/
+.mainTitle{
+	font-weight: bold;
+	font-size: 23px;
+	color: #3f3735;
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+.rate{
+	align-items: center;
+	justify-content: center;
+	padding-bottom: 10px;
+}
+
+.rateStar{
+	color: #ff6f61;
+	font-size: 18px;
+	line-height: 18px;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+}
+
+.rateStarInfos{
+
+	color: #3f3735;
+	font-size: 13px;
+	line-height: 18px;
+	margin-top: 2px;
+	margin-left: 4px;
+}
+
+.infosPlus{
+	padding-bottom: 12px;
+	font-size: 8px;
+	color: #998b89;
+	text-align: center;
+}
+
+.tagList{
+	flex-wrap: wrap;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	margin-bottom: 12px;
+
+}
+.tag{
+	display: inline-block;
+	flex-grow: 1;
+	padding: 2px 15px;
+	color: #959190;
+	border: 1px solid #d8d8d8;
+	margin: 3px;
+	border-radius: 8px;
+	line-height: 14px;
+}
+/*-----recipeTop*/
+
+/*mediaMainPicture-----*/
+.mediaContainer{
+	margin-top: 18px;
+	position: relative;
+}
+
+.mainPictureContainer{
+	border-radius: 15px;
+	overflow: hidden;
+	max-height: 450px;
+}
+
+.mainPicture{
+	width: 100%;
+	object-fit: cover;
+	cursor: pointer;
+	border-radius: 15px;
+}
+/*-----mediaMainPicture*/
+
+/*galeryContainer-----*/
+.pictureGalleryContainer{
+	width: 100%;
+	margin-top: 5px;
+	margin-bottom: 40px;
+	max-height: 75px;
+
+}
+
+.miniPictureContainer{
+	justify-content: center;
+	align-items: center;
+	width: 25%;
+	position: relative;
+	border-radius: 15px;
+	overflow: hidden;
+}
+
+.marginFive{
+	margin-right: 5px;
+}
+
+.miniPicture{
+	width: 100%;
+	object-fit: cover;
+	cursor: pointer;
+	border-radius: 15px;
+}
+
+.flex {
+	display : flex ;
+}
+
+*, ::before, ::after {
+    box-sizing: inherit;
+}
